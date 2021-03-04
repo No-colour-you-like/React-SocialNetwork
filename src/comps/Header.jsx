@@ -7,17 +7,17 @@ const Header = () => {
         <div className="header__wrapper">
           <div className="header__nav">
             <a href="#" className="header__nav-name">
-              Home
+              Главная
             </a>
-            <p className="header__nav-name">Message</p>
-            <p className="header__nav-name">Notification</p>
+            <p className="header__nav-name">Сообщения</p>
+            <p className="header__nav-name">Уведомления</p>
           </div>
           <div className="logo">
             <img src="/img/logo.png" alt="logo" className="logo-img" />
           </div>
           <div className="header__search-block">
             <form action="#" className="header__search-form">
-              <input type="text" className="header__input" />
+              <input type="text" className="header__input" placeholder="Поиск" />
               <button className="header__search-btn"></button>
             </form>
             <div className="header__person"></div>
