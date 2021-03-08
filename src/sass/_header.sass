@@ -1,11 +1,14 @@
 .header
   box-shadow: 0 0 10px #808080
+  position: fixed
+  width: 100%
+  background-color: #fff
+  z-index: 5
   &__wrapper
     display: flex
     justify-content: space-between
     align-items: center
     padding: 10px 0
-    background-color: #fff
     min-height: 50px 
   &__nav 
     display: flex
@@ -17,6 +20,8 @@
     justify-content: flex-end
     width: 400px
   &__search-form 
+    display: flex
+    align-items: center
     margin-right: 15px
     border: none 
     border-bottom: 1px solid #000
@@ -24,12 +29,19 @@
     margin-right: 5px
     border: none
   &__search-btn 
-    width: 30px
-    height: 30px
+    width: 35px
+    height: 25px
+    background-color: transparent
+    border: none
+    &-icon 
+      width: 20px
+      height: 20px
   &__person 
     width: 40px
     height: 40px
-    background-color: #686868
     border-radius: 50%
+    background-color: #222
+    &-img 
+      border-radius: 50%
       
       

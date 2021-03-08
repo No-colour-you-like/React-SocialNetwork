@@ -1,22 +1,46 @@
 .friends-zone 
-  width: 340px
-  padding: 35px 30px
+  width: 300px
+  padding: 25px
   background-color: #fff
+  box-shadow: 0 0 10px #808080
   &__title 
     font-size: 20px 
     margin-bottom: 20px
     &:after 
       content: ''
-      width: 10px 
-      height: 1px 
-      color: #c71313
-
-.friend
-  &__link 
-    display: flex
-  &__img 
+      display: block
+      width: 30px 
+      height: 2px 
+      background-color: #dc4734
+      margin-top: 10px
+  &__like 
     width: 30px
     height: 30px
+
+
+.friend
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin-bottom: 15px
+  &:last-child 
+    margin-bottom: 0
+  &__link 
+    display: flex
+    align-items: center
+  &__image 
+    margin-right: 10px
+  &__img 
+    width: 40px
+    height: 40px
     background-color: #5f5656
     border-radius: 50%
+  &__name 
+    font-size: 18px
+    font-weight: bold
+    margin-bottom: 5px
+    color: #222
+  &__mutual 
+    font-size: 12px
+    color: #222
   
