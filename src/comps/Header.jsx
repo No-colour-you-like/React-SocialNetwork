@@ -10,7 +10,8 @@ const Header = () => {
               Главная
             </a>
             <p className="header__nav-name">Сообщения</p>
-            <p className="header__nav-name">Уведомления</p>
+            <p className="header__nav-name">Новости</p>
+            <p className="header__nav-name">Музыка</p>
           </div>
           <div className="logo">
             <img src="img/logo.png" alt="logo" className="logo-img" />

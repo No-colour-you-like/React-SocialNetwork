@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Post = () => {
+const Post = (props) => {
   return (
     <section className="post">
       <div className="post__person">
@@ -14,7 +14,7 @@ const Post = () => {
         </div>
       </div>
       <p className="post__text">
-      Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+        {props.text}
       </p>
       <div className="post__image"></div>
       <div className="post__social">

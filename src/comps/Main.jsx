@@ -14,7 +14,7 @@ const Main = () => {
           </aside>
           <div className="main__center">
             <AddPost />
-            <Post />
+            <Post text="Это мой первый пост" />
           </div>
           <aside className="main__aside-right">
             <FriendsZone />
