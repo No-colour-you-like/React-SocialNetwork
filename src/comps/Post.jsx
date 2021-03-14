@@ -14,7 +14,7 @@ const Post = (props) => {
         </div>
       </div>
       <p className="post__text">
-        {props.text}
+        Это мой первый пост
       </p>
       <div className="post__image"></div>
       <div className="post__social">
