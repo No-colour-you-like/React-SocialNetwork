@@ -1,27 +1,73 @@
 .profile 
-  height: 350px
   margin-bottom: 40px
   background-color: #fff 
+  &__main-info 
+    box-shadow: $box-shadow-blue
   &__top 
-    height: 200px
+    width: 100%
+    height: 250px
     background-color: #757474
+    &-img 
+      width: 100%
+      height: 100%
+      object-fit: cover
   &__bottom 
     position: relative
     display: flex
     align-items: center 
     justify-content: space-between
-    padding: 15px
+    height: 100px
+    padding: 15px 20px
+    margin-bottom: 20px
   &__links 
     display: flex
     align-items: center
+  &__link 
+    width: 35px 
+    height: 35px
+    margin-right: 15px
+    &:last-child
+      margin-right: 0
   &__name 
+    text-align: center
     position: absolute 
     left: 50% 
+    bottom: 40px
     transform: translateX(-50%)
+    &-text 
+      font-size: 25px
   &__image 
-    width: 100px
-    height: 100px
+    width: 130px
+    height: 130px
     border-radius: 50%
+    margin-bottom: 15px
   &__follow 
     display: flex
     align-items: center
+    &-info
+      margin-right: 15px
+    &-info 
+      text-align: center
+    &-title 
+      font-size: 15px
+      margin-bottom: 5px
+      font-weight: 500
+    &-val 
+      font-size: 15px
+      color: #3f414d
+  &__menu 
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100% 
+    height: 60px
+    box-shadow: $box-shadow-blue
+    &-section 
+      display: flex
+      justify-content: center 
+      align-items: center
+      width: 25%
+      height: 100%
+      cursor: pointer
+      &:hover 
+       color: $hover-text-color
