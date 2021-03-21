@@ -1,44 +1,86 @@
 .header
-  box-shadow: 0 0 10px #808080
   position: fixed
   width: 100%
   background-color: #fff
+  box-shadow: 0 0 10px rgba(#808080, 0.3)
   z-index: 5
   &__wrapper
     display: flex
     justify-content: space-between
     align-items: center
     padding: 10px 50px
-    min-height: 70px 
+    height: 90px 
   &__logo
     display: flex
     align-items: center
+  &__name 
+    font-family: 'Poppins', sans-serif
+    font-size: 25px
+    color: #333333
+    margin-right: 20px
   &__search 
     position: relative
   &__input 
-    padding: 10px 50px 10px 10px
-    width: 350px
-    height: 45px
-    border: 1px solid #797979
+    width: 500px
+    padding: 10px 60px 10px 10px
+    border: 1px solid rgba(#797979, 0.2)
+    background-color: rgba(#d5ffff, 0.3)
     border-radius: 5px
-  &__search-btn 
-    position: absolute
-    right: 5px
-    top: 50%
-    transform: translateY(-50%)
-    width: 30px
-    height: 25px
+    font-size: 15px
+    outline: none
+  &__search
+    &-btn 
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
+      right: 5px
+      top: 50%
+      transform: translateY(-50%)
+      width: 40px
+      height: 40px
+      border: none 
+      background: transparent
+    &-logo
+      width: 25px 
+      height: 25px
+  &__profile 
+    display: flex
+    align-items: center
+    margin-right: 40px
+    &-photo 
+      width: 60px
+      height: 60px
+      border-radius: 50%
+      margin-right: 15px
+    &-name 
+      font-size: 20px
+      color: #000
   &__menu 
     display: flex
     align-items: center
+  &__icon 
+    display: flex 
+    align-items: center
+    width: 30px 
+    height: 30px
+    margin-right: 20px
+    &:last-child
+      margin-right: 0
+    &-pic 
+      width: 25px 
+
+.logo 
+  width: 70px
+  height: 70px
+  margin-right: 20px
 
 .hamburger 
-  margin-left: 10px
   cursor: pointer
   &__line 
     width: 30px
     height: 3px
-    background-color: #000
-    margin-bottom: 6px
+    background-color: #333333
+    margin-bottom: 5px
     &:last-child
       margin-bottom: 0
