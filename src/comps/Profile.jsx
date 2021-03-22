@@ -9,6 +9,7 @@ import TwitterIcon from '../img/icons/social/twitter.svg';
 import YoutubeIcon from '../img/icons/social/youtube.svg';
 import TelegramIcon from '../img/icons/social/telegram.svg';
 import LinkedinIcon from '../img/icons/social/linkedin.svg';
+import { NavLink } from 'react-router-dom';
 
 
 const Profile = () => {
@@ -60,18 +61,18 @@ const Profile = () => {
         </div>
       </div>
       <nav className="profile__menu">
-        <div className="profile__menu-section">
+        <NavLink to="/profile" className="profile__menu-section">
           Лента
-        </div>
-        <div className="profile__menu-section">
+        </NavLink>
+        <NavLink to="/profile/about" className="profile__menu-section">
           Обо мне
-        </div>
-        <div className="profile__menu-section">
+        </NavLink>
+        <NavLink to="/profile/friends" className="profile__menu-section">
           Друзья
-        </div>
-        <div className="profile__menu-section">
+        </NavLink>
+        <NavLink to="/profile/photos" className="profile__menu-section">
           Фотографии
-        </div>
+        </NavLink>
       </nav>
     </section>
   )

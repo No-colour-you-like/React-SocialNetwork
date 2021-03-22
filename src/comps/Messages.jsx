@@ -80,7 +80,6 @@ const Messages = () => {
           <textarea type="text" className="messages__chat-input"/>
           <button className="messages__chat-btn">Отправить</button>
         </div>
-        
       </div>
     </section>
   )

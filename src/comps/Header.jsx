@@ -17,7 +17,7 @@ const Header = () => {
       <div className="header__wrapper">
           <div className="header__logo">
             <img src={LogoIcon} alt="logo" className="logo"/>
-            <p className="header__name">MyNetwork</p>
+            <p className="header__name">Space Network</p>
             <div className="hamburger">
               <div className="hamburger__line"></div>
               <div className="hamburger__line"></div>
