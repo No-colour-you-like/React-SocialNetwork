@@ -1,10 +1,18 @@
 import React from 'react';
 
+import MyPhoto from '../img/my-photo.jpg';
+import PostImg from '../img/post-img.jpg';
+import HeartIcon from '../img/icons/static/heart.png';
+import SpeechIcon from '../img/icons/static/speech.png';
+import ShareIcon from '../img/icons/static/share.png';
+
+
+
 const Post = (props) => {
   return (
     <section className="post">
       <div className="post__person">
-        <img src="img/my-photo.jpg" alt="my-photo" className="post__person-image"/>
+        <img src={MyPhoto} alt="my-photo" className="post__person-image"/>
         <div className="post__person-text">
           <p className="post__person-name">
             Никита Савкин
@@ -17,20 +25,20 @@ const Post = (props) => {
       <p className="post__text">
         Это мой первый пост
       </p>
-      <div className="post__image"></div>
+      <img src={PostImg} className="post__image"></img>
       <div className="post__social">
         <div className="post__social-like">
-          <img src="img/icons/static/heart.png" alt="post-icon" className="post__icon"/>
+          <img src={HeartIcon} alt="post-icon" className="post__icon"/>
           <p className="post__social-like-text">
             10 лайков
           </p>
-          <img src="img/icons/static/speech.png" alt="post-icon" className="post__icon"/>
+          <img src={SpeechIcon} alt="post-icon" className="post__icon"/>
           <p className="post__social-comment-text">
             30 комментариев
           </p>
         </div>
         <div className="post__social-share">
-        <img src="img/icons/static/share.png" alt="post-icon" className="post__icon"/>
+        <img src={ShareIcon} alt="post-icon" className="post__icon"/>
           <p className="post__social-share-text">
             10
           </p>

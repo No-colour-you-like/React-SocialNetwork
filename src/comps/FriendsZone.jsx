@@ -1,5 +1,12 @@
 import React from 'react';
 
+//Images 
+import Person1 from '../img/people/1.jpg';
+import Person2 from '../img/people/2.jpg';
+import Person3 from '../img/people/3.jpg';
+import Person4 from '../img/people/4.jpg';
+import Person5 from '../img/people/5.jpg';
+
 const FriendsZone = () => {
   return (
     <section className="friends-zone">
@@ -10,7 +17,7 @@ const FriendsZone = () => {
         <li className="friend">
           <a href="#" className="friend__link">
             <div className="friend__image">
-              <img src="img/people/1.jpg" alt="woman-jpg" className="friend__img"/>
+              <img src={Person1} alt="woman-jpg" className="friend__img"/>
             </div>
             <div className="friend__text">
               <p className="friend__name">Амелия Джексон</p>
@@ -21,7 +28,7 @@ const FriendsZone = () => {
         <li className="friend">
           <a href="#" className="friend__link">
             <div className="friend__image">
-              <img src="img/people/2.jpg" alt="woman-jpg" className="friend__img"/>
+              <img src={Person2} alt="woman-jpg" className="friend__img"/>
             </div>
             <div className="friend__text">
               <p className="friend__name">Дилан Хенкок</p>
@@ -32,7 +39,7 @@ const FriendsZone = () => {
         <li className="friend">
           <a href="#" className="friend__link">
             <div className="friend__image">
-              <img src="img/people/3.jpg" alt="woman-jpg" className="friend__img"/>
+              <img src={Person3} alt="woman-jpg" className="friend__img"/>
             </div>
             <div className="friend__text">
               <p className="friend__name">Анжела Мур</p>
@@ -43,7 +50,7 @@ const FriendsZone = () => {
         <li className="friend">
           <a href="#" className="friend__link">
             <div className="friend__image">
-              <img src="img/people/4.jpg" alt="woman-jpg" className="friend__img"/>
+              <img src={Person4} alt="woman-jpg" className="friend__img"/>
             </div>
             <div className="friend__text">
               <p className="friend__name">Надин Мэйсон</p>
@@ -54,7 +61,7 @@ const FriendsZone = () => {
         <li className="friend">
           <a href="#" className="friend__link">
             <div className="friend__image">
-              <img src="img/people/5.jpg" alt="woman-jpg" className="friend__img"/>
+              <img src={Person5} alt="woman-jpg" className="friend__img"/>
             </div>
             <div className="friend__text">
               <p className="friend__name">Донна Крофтон</p>
