@@ -3,12 +3,12 @@ import React from 'react';
 // Images
 import MyPhoto from '../img/my-photo.jpg';
 import LogoIcon from '../img/logo.jpg';
-import SearchIcon from '../img/icons/static/search.png';
-import HomeIcon from '../img/icons/static/home.png';
-import PeopleIcon from '../img/icons/static/people.png';
-import LetterIcon from '../img/icons/static/letter.png';
-import BellIcon from '../img/icons/static/bell.png';
-import SettingsIcon from '../img/icons/static/settings.png';
+import SearchIcon from '../img/icons/gif/search.gif';
+import NewsSecondIcon from '../img/icons/gif/news-2.gif';
+import NewFriendsIcon from '../img/icons/gif/new-friends.gif';
+import NewMessagesIcon from '../img/icons/gif/new-messages.gif';
+import NotificationIcon from '../img/icons/gif/notification.gif';
+import SettingsIcon from '../img/icons/gif/settings.gif';
 
 
 const Header = () => {
@@ -36,16 +36,16 @@ const Header = () => {
               <p className="header__profile-name">Nikita S.</p>
             </a>
             <a href="#" className="header__icon">
-              <img src={HomeIcon} alt="home-icon" className="header__icon-pic"/>
+              <img src={NewsSecondIcon} alt="home-icon" className="header__icon-pic"/>
             </a>
             <a href="#" className="header__icon">
-              <img src={PeopleIcon} alt="people-icon" className="header__icon-pic"/>
+              <img src={NewFriendsIcon} alt="people-icon" className="header__icon-pic"/>
             </a>
             <a href="#" className="header__icon">
-              <img src={LetterIcon} alt="people-icon" className="header__icon-pic"/>
+              <img src={NewMessagesIcon} alt="people-icon" className="header__icon-pic"/>
             </a>
             <a href="#" className="header__icon">
-              <img src={BellIcon} alt="people-icon" className="header__icon-pic"/>
+              <img src={NotificationIcon} alt="people-icon" className="header__icon-pic"/>
             </a>
             <a href="#" className="header__icon">
               <img src={SettingsIcon} alt="people-icon" className="header__icon-pic"/>

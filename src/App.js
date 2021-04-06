@@ -7,11 +7,17 @@ import Profile from './comps/Profile';
 import FriendsZone from './comps/FriendsZone';
 import AddPost from './comps/AddPost';
 import Post from './comps/Post';
-import Messages from './comps/Messages';
+import Messages from './comps/messages/Messages';
 import ProfileAbout from './comps/profile/ProfileAbout';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-const App = () => {
+
+
+
+const App = (props) => {
+
+
+
   return (
     <BrowserRouter>
       <Header />
@@ -20,10 +26,10 @@ const App = () => {
       <main className="main">
         <div className="main__wrapper">
           <div className="main__center">
-            <Route path="/profile" component={Profile} />
-            <Route exact path="/profile" component={Post} />
-            <Route exact path="/profile/about" component={ProfileAbout} />
-            <Route path="/messages" component={Messages} />
+            <Route path="/profile" render={Profile} />
+            <Route exact path="/profile" render={Post} />
+            <Route exact path="/profile/about" render={ProfileAbout} />
+            <Route path="/messages" render={ () => <Messages personData={props.personData} messageData={props.messageData} /> } />
           </div>
         </div>
       </main>
@@ -34,3 +40,5 @@ const App = () => {
 
 
 export default App;
+
+

@@ -13,6 +13,7 @@ import { NavLink } from 'react-router-dom';
 
 
 const Profile = () => {
+  
   return (
     <section className="profile">
       <div className="profile__main-info">

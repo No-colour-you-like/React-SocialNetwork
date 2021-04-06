@@ -43,8 +43,8 @@ const Friends = (friends) => {
     {id: '6', img: Person6, name: 'Джэн Дэвис', mutual: '5 общих'},
     {id: '7', img: Person7, name: 'Джанет Каванди', mutual: '5 общих'},
     {id: '8', img: Person8, name: 'Джозеф Купер', mutual: '5 общих'},
-    {id: '9', img: Person9, name: 'Джанет Каванди', mutual: '5 общих'},
-    {id: '10', img: Person10, name: 'Марк Уитни', mutual: '5 общих'},
+    {id: '9', img: Person9, name: 'Марк Уитни', mutual: '5 общих'},
+    {id: '10', img: Person10, name: 'Роберт Гибсон', mutual: '5 общих'},
     {id: '11', img: Person11, name: 'Роберт Кимбро', mutual: '5 общих'},
     {id: '12', img: Person12, name: 'Мистер Чужой', mutual: '5 общих'},
   ];
@@ -62,7 +62,5 @@ const Friends = (friends) => {
     
   )
 };
-
-
 
 export default Friends;

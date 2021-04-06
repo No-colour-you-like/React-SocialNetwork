@@ -2,9 +2,9 @@ import React from 'react';
 
 import MyPhoto from '../img/my-photo.jpg';
 import PostImg from '../img/post-img.jpg';
-import HeartIcon from '../img/icons/static/heart.png';
-import SpeechIcon from '../img/icons/static/speech.png';
-import ShareIcon from '../img/icons/static/share.png';
+import LikeIcon from '../img/icons/gif/like.gif';
+import CommentIcon from '../img/icons/gif/comment.gif';
+import ShareIcon from '../img/icons/gif/share.gif';
 
 
 
@@ -28,11 +28,11 @@ const Post = (props) => {
       <img src={PostImg} className="post__image"></img>
       <div className="post__social">
         <div className="post__social-like">
-          <img src={HeartIcon} alt="post-icon" className="post__icon"/>
+          <img src={LikeIcon} alt="post-icon" className="post__icon"/>
           <p className="post__social-like-text">
             10 лайков
           </p>
-          <img src={SpeechIcon} alt="post-icon" className="post__icon"/>
+          <img src={CommentIcon} alt="post-icon" className="post__icon"/>
           <p className="post__social-comment-text">
             30 комментариев
           </p>
